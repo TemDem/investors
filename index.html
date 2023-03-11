@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230309225143">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230311132822">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,7 +47,7 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="page__main-section main-section">
+			<section class="page__main-section main-section main-section_main">
 				<div class="main-section__container">
 					<div class="main-section__body">
 						<div class="main-section__control-block control-block control-block_left">
@@ -81,7 +81,7 @@
 									<div class="advantages__num">#1</div>
 								</div>
 								<div class="advantages__trinagle">
-									<img src="img/icons/trinagle.svg" alt="trinagle">
+									<img src="img/icons/trinagle-dark.svg" alt="trinagle">
 								</div>
 							</div>
 							<div class="advantages__item">
@@ -95,7 +95,7 @@
 									<div class="advantages__num">#2</div>
 								</div>
 								<div class="advantages__trinagle">
-									<img src="img/icons/trinagle.svg" alt="trinagle">
+									<img src="img/icons/trinagle-dark.svg" alt="trinagle">
 								</div>
 							</div>
 							<div class="advantages__item">
@@ -109,7 +109,7 @@
 									<div class="advantages__num">#3</div>
 								</div>
 								<div class="advantages__trinagle">
-									<img src="img/icons/trinagle.svg" alt="trinagle">
+									<img src="img/icons/trinagle-dark.svg" alt="trinagle">
 								</div>
 							</div>
 							<div class="advantages__item">
@@ -123,7 +123,7 @@
 									<div class="advantages__num">#4</div>
 								</div>
 								<div class="advantages__trinagle">
-									<img src="img/icons/trinagle.svg" alt="trinagle">
+									<img src="img/icons/trinagle-dark.svg" alt="trinagle">
 								</div>
 							</div>
 							<div class="advantages__item">
@@ -137,7 +137,7 @@
 									<div class="advantages__num">#5</div>
 								</div>
 								<div class="advantages__trinagle">
-									<img src="img/icons/trinagle.svg" alt="trinagle">
+									<img src="img/icons/trinagle-dark.svg" alt="trinagle">
 								</div>
 							</div>
 						</div>
@@ -173,7 +173,7 @@
 								<a href="#" class="control-block__btn btn">ПОДРОБНЕЕ</a>
 							</div>
 							<div class="control-block__image">
-								<img src="img/main-section/image-02.svg" alt="image">
+								<img src="img/main-section/image-03.svg" alt="image">
 							</div>
 						</div>
 					</div>
@@ -193,14 +193,14 @@
 								<a href="#" class="control-block__btn btn">ПОДРОБНЕЕ</a>
 							</div>
 							<div class="control-block__image">
-								<img src="img/main-section/image-03.svg" alt="image">
+								<img src="img/main-section/image-05.svg" alt="image">
 							</div>
 						</div>
 					</div>
 					<div class="blog__news news">
 						<h2 class="news__title title">новости</h2>
 						<div class="news__row">
-							<div class="news__item item-news">
+							<a href="#" class="news__item item-news">
 								<div class="item-news__image-ibg">
 									<img src="img/news/image-01.svg" alt="image">
 								</div>
@@ -209,8 +209,8 @@
 									<div class="item-news__date">15.02.2023</div>
 									<div class="item-news__excert">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet urna vitae magna.</div>
 								</div>
-							</div>
-							<div class="news__item item-news">
+							</a>
+							<a href="#" class="news__item item-news">
 								<div class="item-news__image-ibg">
 									<img src="img/news/image-01.svg" alt="image">
 								</div>
@@ -220,8 +220,8 @@
 									<div class="item-news__excert">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet urna vitae
 										magna.</div>
 								</div>
-							</div>
-							<div class="news__item item-news">
+							</a>
+							<a href="#" class="news__item item-news">
 								<div class="item-news__image-ibg">
 									<img src="img/news/image-01.svg" alt="image">
 								</div>
@@ -231,7 +231,7 @@
 									<div class="item-news__excert">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet urna vitae
 										magna.</div>
 								</div>
-							</div>
+							</a>
 						</div>
 					</div>
 					<a href="#" class="blog__btn btn">ВСЕ НОВОСТИ</a>
@@ -310,19 +310,21 @@
 			</div>
 		</footer>
 	</div>
-	<!-- 
-<div id="popup" aria-hidden="true" class="popup">
-	<div class="popup__wrapper">
-		<div class="popup__content">
-			<button data-close type="button" class="popup__close">Закрыть</button>
-			<div class="popup__text">
+
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__close-wrap"><button data-close type="button" class="popup__close _icon-plus"></button></div>
+				<div class="popup__title">Lorem, ipsum.</div>
+				<div class="popup__text text">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem adipisci nisi quibusdam at, voluptatem recusandae corrupti in aut beatae iure ipsam ea. Eum, eligendi! Possimus, maiores mollitia tempora necessitatibus excepturi eveniet nostrum rem, ex quas vel temporibus facilis deleniti soluta asperiores eos maxime officia reiciendis nam laudantium, velit iusto quis!
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
- -->
 
-	<script src="js/app.min.js?_v=20230309225143"></script>
+
+	<script src="js/app.min.js?_v=20230311132822"></script>
 </body>
 
 </html>
