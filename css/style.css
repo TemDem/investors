@@ -1252,7 +1252,7 @@ body::after {
 }
 
 .blog {
-  ing-top: 11.875rem;
+  padding-top: 11.875rem;
   padding-bottom: 11.25rem;
   background: #090909;
 }
